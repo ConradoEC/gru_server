@@ -24,7 +24,8 @@ const residueSchema = new mongoose.Schema({
     dia_semana_residuo: {
         type: String,
         trim: true,
-        required: true
+        required: true,
+        enum: ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"]
     },
     horario_residuo: {
         type: String,
