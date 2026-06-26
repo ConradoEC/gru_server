@@ -6,7 +6,7 @@
 
 </div>
 
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) [![Status](https://img.shields.io/badge/STATUS-DESENVOLVIMENTO-black.svg)](https://shields.io/)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) [![Status](https://img.shields.io/badge/STATUS-DESENVOLVIMENTO-lightgreen.svg)](https://shields.io/)
 
 Esta RestAPI, em desenvolvimento, será utilizada em nosso Projeto Integrador Acadêmico, gerenciando o tráfego e o armazenamento de dados, gerados por nossa **Esteira** e **Website**.
 
