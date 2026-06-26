@@ -18,7 +18,8 @@ const trashSchema = new mongoose.Schema({
         type: Number,
         required: true,
         enum: [0, 1, 2, 3, 4],
-        set: value => new mongoose.Types.Number(value)
+        default: 0,
+        set: value => parseInt(value)
     }
 })
 

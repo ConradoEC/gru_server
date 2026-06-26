@@ -26,7 +26,14 @@ export default class TrashService {
 
     static async setNewTrash(content) {
         try {
-            const newTrash = await trashModel.create(content);
+            console.log(content)
+
+            const newTrash = await trashModel.create({
+                codigo_dono_lixeira: new mongoose.Types.ObjectId(content.codigo_dono_lixeira),
+                endereco_lixeira: content.endereco_lixeira,
+                coordenada: content.coordenada,
+                status_lixeira: parseInt(content.status_lixeira)
+            });
             return newTrash;
         }
         catch (error) {
