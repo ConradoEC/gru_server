@@ -36,16 +36,16 @@ Nosso projeto se baseia em uma esteira automática, acoplada à lixeiras comuns,
 
 ```text
 src/
-├── Controllers/  # Sla
-├── Database/     # Sla
-├── Models/       # Sla
-├── Routes/       # Sla
-├── Services/     # Sla
-├── Views/        # Sla
-├── Public/       # Sla
+├── Controllers/
+├── Database/   
+├── Models/     
+├── Routes/     
+├── Services/   
+├── Views/      
+├── Public/     
 |
-├── app.js        # Sla
-└── server.js     # Sla
+├── app.js      
+└── server.js   
 ```
 
 ---
